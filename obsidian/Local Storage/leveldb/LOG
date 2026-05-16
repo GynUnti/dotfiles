@@ -1,6 +1,0 @@
-2026/05/16-17:53:03.715 37e39 Reusing MANIFEST /home/tringuyen/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
-2026/05/16-17:53:03.721 37e39 Recovering log #4
-2026/05/16-17:53:03.722 37e39 Reusing old log /home/tringuyen/.config/obsidian/Local Storage/leveldb/000004.log 
-2026/05/16-18:15:24.350 37e38 Level-0 table #8: started
-2026/05/16-18:15:24.361 37e38 Level-0 table #8: 7781 bytes OK
-2026/05/16-18:15:24.365 37e38 Delete type=0 #4
