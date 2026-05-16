@@ -1,0 +1,30 @@
+1778631007238	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1778631028166	Sync.AddonsReconciler	DEBUG	Add-on change: onInstalled to firefox-extension@deepl.com
+1778631028166	Sync.AddonsReconciler	DEBUG	Rectifying state for addon DeepL: translate and write with AI (version=1.85.0, id=firefox-extension@deepl.com)
+1778631028167	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1778632371912	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1778632371912	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1778632371913	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1778632371918	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1778632381582	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1778632381583	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1778632381583	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1778632381584	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1778632383608	Sync.Service	DEBUG	User-Agent: Zen/1.19.12b (Linux x86_64) FxSync/1.152.0.20260507044029.desktop
+1778632383608	Sync.Service	INFO	Starting sync at 2026-05-12 20:33:03 in browser session UTFHi0KMb1fT
+1778632383608	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1778632383609	Sync.Status	INFO	Resetting Status.
+1778632383609	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1778632383610	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1778632383610	FirefoxAccounts	DEBUG	getOAuthToken enter
+1778632383610	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1778632383610	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1778632383611	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1778632383612	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1778632383613	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1778632383613	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/269815559/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1778632383613	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1778632383613	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1778632383613	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1778632383613	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1778632383615	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
