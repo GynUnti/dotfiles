@@ -247,7 +247,7 @@ user_pref("services.sync.engine.prefs.modified", false);
 user_pref("services.sync.engine.workspaces", true);
 user_pref("services.sync.forms.lastSync", "1778696330.62");
 user_pref("services.sync.forms.syncID", "jn4gr4eeotfw");
-user_pref("services.sync.globalScore", 0);
+user_pref("services.sync.globalScore", 1);
 user_pref("services.sync.lastPing", 1778897433);
 user_pref("services.sync.lastSync", "Sat May 16 2026 18:37:09 GMT-0400 (Eastern Daylight Time)");
 user_pref("services.sync.lastTabFetch", 1778971028);
